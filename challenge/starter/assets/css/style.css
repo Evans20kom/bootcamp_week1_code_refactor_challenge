@@ -13,10 +13,10 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
-    position: fixed;
+    position: fixed; /*added fixed position at top of page to improve accessibility*/
     justify-content: right;
     width: 100%;
-    height: 70px;
+    height: 70px; /*added height to allow for better visibility of hero background image*/
 }
 
 header p {
@@ -24,7 +24,7 @@ header p {
     font-size: 48px;
 }
 
-header p .logo {
+header p .logo /*logo class used as descriptive class nameS*/ {
     color: #d9dcd6;
 }
 
@@ -63,12 +63,14 @@ p {
     background-position: center;
 }
 
+/*relocated content element to follow semantic structure*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*relocated float elements to follow semantic structure*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -79,6 +81,7 @@ p {
     margin-left: 25px;
 }
 
+/*relocated elements to follow semantic structure; attributes assigned to article to avoid repeating code*/
 article {
     margin-bottom: 20px;
     padding: 50px;
@@ -97,6 +100,7 @@ article h1 {
     font-size: 36px;
 }
 
+/*attributes assigned to aside to avoid repeating code*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -131,6 +135,7 @@ footer {
     text-align: center;
 }
 
+/*class introduced to avoid using h1 element at the footer; p element differentiated by headline class.*/
 .headline {
     font-size: 20px;
 }
