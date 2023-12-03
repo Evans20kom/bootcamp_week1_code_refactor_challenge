@@ -30,11 +30,11 @@ SO THAT our own site is optimized for search engines
 
 Your website must meet accessibility standards. You can achieve this completing the following:
 
-* Semantic HTML elements can be found throughout the source code
+* Semantic HTML elements can be found throughout the source code - Issue Raised on GitHub
 * HTML elements follow a logical structure independent of styling and positioning
-* Image and icon elements contain accessible `alt` attributes
-* Heading attributes fall in sequential order
-* Title elements contain a concise, descriptive title
+* Image and icon elements contain accessible `alt` attributes - Issue Raised on GitHub
+* Heading attributes fall in sequential order - Issue Raised on GitHub
+* Title elements contain a concise, descriptive title - Issue Raised on GitHub
 
 ### Resources:
 
